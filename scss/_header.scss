@@ -1,0 +1,76 @@
+/*HEADER*/
+header {
+    text-transform: capitalize;
+    padding: 30px 0;
+    display: flex;
+    @extend .container;
+
+    nav {
+        @extend .title-li-a;
+        width: 100%;
+        display: flex;
+
+        ul {
+            list-style: none;
+            flex-direction: row;
+            display: flex;
+            padding: 0;
+            width: 100%;
+            justify-content: center;
+            margin: 0;
+            height: 100%;
+            align-items: center;
+
+            li {
+                padding: 0 4vw;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                transition: all 0.35s ease;
+
+                a {
+                    &:hover {
+                        transform: translateY(-20px);
+                    }
+                }
+            }
+        }
+    }
+
+    .headerLi2 {
+        padding-left: 13vw;
+    }
+
+    a {
+        color: $orange-color;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.35s ease;
+
+    }
+
+    svg {
+        color: $orange-color;
+    }
+
+    .fa-microphone-alt {
+        transition: width .25s ease;
+    }
+
+    .title {
+        &:hover {
+            .fa-microphone-alt {
+                font-size: 3.5rem;
+            }
+        }
+    }
+
+}
+
+.title {
+    font-size: 2.5rem;
+    color: $gray-color;
+    width: 20%;
+}

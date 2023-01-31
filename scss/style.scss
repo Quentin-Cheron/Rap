@@ -1,0 +1,106 @@
+/*GLOBAL*/
+
+* {
+    box-sizing: border-box
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: gray;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+/*font-family: 'Luckiest Guy', cursive*/
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*@EXTEND*/
+
+.title-stars {
+    content: "**";
+    padding: 10px;
+    font-family: 'Luckiest Guy', cursive;
+}
+.title-li-a {
+    font-family: 'Luckiest Guy', cursive
+}
+
+.text {
+    width: 46%;
+}
+
+.text-one-two-three {
+    border-radius: 20px;
+    opacity: .7;
+    font-family: sans-serif;
+    padding: 18px;
+    font-size: 1.5rem;
+}
+
+.reset-submit {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    margin: 0 20px;
+    padding: 1rem 3rem;
+    color: white;
+    border: none;
+    padding: 1.3rem 3rem;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 130rem;
+    margin: 0 auto;
+}
+
+.form-img {
+    background-repeat: no-repeat;
+    background-size: 40px;
+    padding-left: 6rem;
+    background-position: 10px center;
+    outline: none;
+    border: gray 1px solid;
+    border-radius: 50px;
+}
+
+
+
+/*VARIABLE*/
+
+$orange-color : orange;
+$white-color : white;
+$gray-color : gray;
+$gray-background-color : gray;
+$light-gray-background-color : lightgray;
+$font-helvetica : Arial,
+Helvetica,
+sans-serif;
+
+/*KEYFRAME*/
+
+@keyframes bounce {
+    from {
+        transform: translateY(0)
+    }
+
+    to {
+        transform: translateY(-20px)
+    }
+}
+
+/*@IMPORT*/
+
+@import '_header.scss';
+@import '_main.scss';
+@import '_footer.scss';
+@import '_scrollBar.scss';

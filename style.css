@@ -1,0 +1,320 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: gray;
+    font-size: 2rem;
+    background-image: url(/img/fondsvg.svg);
+    font-family: 'Luckiest Guy', cursive;
+    line-height: 1.5;
+}
+
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e1e1e1;
+    border: 31px none #ffffff;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a1a1a1;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #a3a3a3;
+}
+
+::-webkit-scrollbar-track {
+    background: #f0f0f0;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track:hover {
+    background: #f2f2f2;
+}
+
+::-webkit-scrollbar-track:active {
+    background: #f5f5f5;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+
+header {
+    text-transform: capitalize;
+    padding: 30px 0;
+}
+
+header li {
+    padding: 0 6vw;
+}
+
+.headerLi2 {
+    padding-left: 13vw;
+}
+
+header ul {
+    list-style: none;
+    flex-direction: row;
+    display: flex;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+}
+
+header a,
+header svg {
+    color: orange;
+}
+
+header ul:first-of-type li:first-child a:first-child {
+    font-size: 2.5rem;
+    color: gray;
+}
+
+header a,
+main a {
+    text-decoration: none;
+}
+
+main h2 {
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+}
+
+main h2::before,
+main h2::after {
+    content: "**";
+    padding: 10px;
+}
+
+.svg-inline--fa {
+    margin: auto;
+}
+
+.svg-inline--fa:nth-of-type(n+2):nth-of-type(-n+4) {
+    display: flex;
+}
+
+main .header1 {
+    background-image: url(/img/fond.gif);
+    background-size: cover;
+    width: 100vw;
+    height: 35vw;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    width: 100%;
+    align-items: center;
+}
+
+main .header1 .btn {
+    border: orange;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 25px;
+}
+
+main a,
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main h3 {
+    text-align: center;
+    border: #D3D3D3 10px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 40px;
+    margin: 3rem;
+    padding: 5px;
+}
+
+main h3::before,
+main h3::after {
+    content: "**";
+    padding: 10px;
+}
+
+main section:first-of-type {
+    text-align: center;
+}
+
+main section:first-of-type h4 {
+    color: orange;
+    font-size: 3rem;
+}
+
+/*main section:first-of-type img {
+    width: 20%;
+}*/
+
+main section {
+    display: flex;
+    flex-direction: row;
+}
+
+main section:nth-of-type(2) article:nth-of-type(n) {
+    flex-direction: column;
+    text-align: center;
+}
+
+main section:nth-of-type(2) p {
+    padding: 0 4rem;
+}
+
+main section:nth-of-type(2) {
+    padding: 35px;
+}
+
+main section:nth-of-type(2) .svg-inline--fa {
+    border: gray 2px solid;
+    border-radius: 100%;
+    padding: 14px;
+    background-color: lightgray;
+}
+
+svg {
+    vertical-align: middle;
+}
+
+main #section2 img {
+    width: 35%;
+    padding: 0 15px 15px 0;
+}
+
+main #section2 {
+    display: flex;
+    flex-direction: column;
+}
+
+main #section2 img:first-child {
+    float: right;
+}
+
+main #section2 h4 {
+    color: orange;
+}
+
+main #sectionIndex1 article {
+    flex: 1;
+}
+
+#section2 article:nth-child(even) img {
+    float: left;
+}
+
+#section2 article:nth-child(odd) img {
+    float: right;
+}
+
+#section2 article {
+    padding-top: 5rem;
+}
+
+.article2 h4 {
+    text-align: right;
+}
+
+.article4 h4 {
+    text-align: right;
+}
+
+#section2 article h4 {
+    font-size: 3rem;
+}
+
+#section2 article a {
+    color: white;
+    border: gray solid;
+    border-radius: 5px;
+    background-color: gray;
+    text-align: left;
+    width: 18.9rem;
+    padding: 5px 5rem;
+}
+
+#section2 article p:last-of-type:after {
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
+    visibility: hidden;
+}
+
+
+#section2 p {
+    margin: 0;
+}
+
+#sectionIndex1 img {
+    width: 80%;
+}
+
+main h3 {
+    padding-bottom: 5rem;
+}
+
+.contain {
+    padding: 35px;
+}
+
+.form1 {
+    display: flex;
+    justify-content: center;
+}
+
+.text1,
+.text2 {
+    width: 46%;
+    margin: 0 20px;
+}
+
+.text3 {
+    width: 95.2%;
+    margin: 20px;
+}
+
+.text1, .text2, .text3 {
+    border-radius: 20px;
+    opacity: .7;
+    font-family: sans-serif;
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+.form2 {
+    display: flex;
+    justify-content: center;
+}
+
+.reset, .submit {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    margin: 0 20px;
+}
+
+.submit {
+    border-color:#4682B4;
+    background-color:#4682B4;
+}

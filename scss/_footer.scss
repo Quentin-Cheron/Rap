@@ -1,0 +1,19 @@
+/*FOOTER*/
+
+footer {
+    padding: 5rem;
+    background-color: #6a5c6b;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    img {
+        width: 6%;
+        margin: 0 auto;
+        padding-bottom: 1rem;
+    }
+    small {
+        color: white;
+    }
+}
